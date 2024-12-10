@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarek Sawan Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .profile img {
+            width: 100px;
+            border-radius: 50%;
+            margin-top: -50px;
+            border: 5px solid white;
+        }
+        h1 {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        .info {
+            margin: 20px 0;
+        }
+        .info div {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .socials img {
+            width: 40px;
+            margin: 5px;
+        }
+        .save-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .save-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<script>
+    function goToSecondPage() {
+        window.location.href = "save.html"; // Redirect to the second page
+    }
+</script>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icon.png" alt="Infinity-fr">
+        </div>
+        <div class="profile">
+            <img src="tarek.jpg" alt="Tarek Sawan">
+        </div>
+        <h1>Tarek Sawan</h1>
+        <h2>Finanzierungsberaterin</h2>
+        <div class="info">
+            <div>📍 Infinity Finance and Real Estate Consulting GmbH</div>
+            <div>📧 tarek.sawan@Infinity-fr.de</div>
+            <div>📞 +4917661156275</div>
+            <div>🌐 <a href="https://www.instagram.com/infinity_fr.de/">Website</a></div>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/infinity_fr.de/"><img src="in.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/tarek.sawan.9"><img src="fa.png" alt="Facebook"></a>
+        </div>
+        <!-- Removed href and only kept the onclick for JavaScript navigation -->
+        <a href="save.html" class="save-btn" onclick="goToSecondPage()">Save Contact</a>
+    </div>
+</body>
+</html>
